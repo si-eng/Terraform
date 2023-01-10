@@ -9,10 +9,11 @@ terraform {
 
 provider "azurerm" {
   # Configuration options
-  subscription_id = "bee184be-f044-44aa-808f-ea5c08b0959b"
-  tenant_id = "824e1ebf-24f1-4ed6-8a2a-d3d4df7f41d7"
-  client_id = "40e7d8a8-fe3c-48a6-89d1-9754bd0c69ba"
-  client_secret = "I6T8Q~nxUMjCFdb3YbZRTN6JNEmYr_juvckKParQ"
+  # Fill according to your azure protal.
+  subscription_id = ""
+  tenant_id = ""
+  client_id = ""
+  client_secret = ""
   features {
     
   }
